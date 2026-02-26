@@ -179,9 +179,7 @@ ul {
   justify-content: space-around;
   height: 100%;
 }
-.fairy-tail_body-title {
-  font-family: "RobotoCondensed-Regular";
-}
+
 .fairy-tail_text {
   padding: 10px 0;
 }
@@ -448,6 +446,57 @@ ul {
     width: 100%;
     padding-left: 0;
   }
+  .our-trip_content {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .our-trip_list {
+    margin: 32px 0;
+  }
+  .our-trip_slider {
+    width: 100%;
+    margin: 16px 0;
+  }
+  .our-trip_slider-item {
+    height: 50vh;
+    width: 100%;
+  }
+  .our-trip_slider-item img {
+    width: 100%;
+  }
+  .hotel_inner {
+    flex-direction: column;
+  }
+  .hotel_images {
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 32px;
+  }
+  .container {
+    padding: 0 8px;
+  }
+  .hotel_gallery a {
+    margin-top: 16px;
+  }
+  .contacts_images {
+    display: none;
+  }
+  .contacts_inner {
+    display: block;
+  }
+  .contacts_form {
+    margin: 32px auto;
+  }
+  .footer_text {
+    text-align: center;
+    font-size: 64px;
+  }
+  .footer_inner {
+    flex-direction: column;
+  }
 }
 @media (max-width: 600px) {
   .header_top {
@@ -484,8 +533,35 @@ ul {
     font-size: 60px;
     line-height: 110px;
   }
-  .fairy-tail_body-title span {
+  .fairy-tail_title span,
+  .price_title span {
     margin-left: 110px;
+  }
+  .our-trip_title span {
+    margin-left: 154px;
+  }
+  .price {
+    background-image: none;
+  }
+  .price_on-title,
+  .price_off-title {
+    margin-bottom: 16px;
+  }
+  .price_inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .contacts_date,
+  .contacts_price {
+    font-size: 76px;
+
+    line-height: 100px;
+  }
+  .contacts_price span {
+    margin-left: 16px;
+  }
+  .contacts_date span {
+    margin-left: 60px;
   }
 }
 @media (max-width: 370px) {
@@ -510,5 +586,15 @@ ul {
   }
   .fairy-tail_title span {
     margin-left: 90px;
+  }
+  .our-trip_title span {
+    margin-left: 130px;
+  }
+  .footer_contacts {
+    width: 314px;
+    height: 466px;
+  }
+  .footer_contacts-title {
+    margin-bottom: 16px;
   }
 }
