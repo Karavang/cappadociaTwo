@@ -563,6 +563,15 @@ ul {
   .contacts_date span {
     margin-left: 60px;
   }
+  .hotel_gallery {
+    justify-content: center;
+  }
+  .hotel_gallery a img {
+    width: 100%;
+  }
+  .price_on {
+    width: 100%;
+  }
 }
 @media (max-width: 370px) {
   .header_title {
